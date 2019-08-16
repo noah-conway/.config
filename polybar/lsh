@@ -1,0 +1,6 @@
+#!/bin/bash
+
+killall -q polybar
+polybar -r eDP-1 &
+polybar -r DP-1-2 &
+
